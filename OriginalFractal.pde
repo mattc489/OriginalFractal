@@ -11,7 +11,7 @@ public void draw() {
 public void concentric(int x1, int y1, int x2, int y2, int x3, int y3, int a) {
   stroke(233);
   fill(255, 200, 200);
-  ellipse((x1 + x2) / 3, (y1 + y2) / 3, 40 + a * 10, 40 + a * 9);  
+  ellipse((x1 + x2) / 3, (y1 + y2) / 3, 40 + a * 10, 40 + a * 10);  
   
   if (a < 19) {
     concentric(x1 + 40, y1 - 5, x2, y2 + 33, x3 - 20, y3 - 15, a + 13);
